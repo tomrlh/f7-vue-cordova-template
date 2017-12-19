@@ -62,9 +62,6 @@ export default {
           console.debug("Unable to obtain picture: " + error, "app");
 
       }, options);
-    },
-    test() {
-      console.log('test')
     }
   }
 }
