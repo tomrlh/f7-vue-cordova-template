@@ -16,7 +16,7 @@ let config = function (env) {
     entry: entryFile,
     
     resolve: {
-      extensions: ['.js', '.json', '.vue'],
+      extensions: ['.js', '.json', '.vue', '.ts'],
       modules: [path.join(__dirname, 'src'), 'node_modules'],
       alias: {
         'vue$': 'vue/dist/vue.common.js',

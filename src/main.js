@@ -8,8 +8,8 @@ import Framework7 from 'framework7'
 import Framework7Vue from 'framework7-vue'
 
 // Import F7 iOS Theme Styles
-import Framework7Theme from 'framework7/dist/css/framework7.ios.min.css'
-import Framework7ThemeColors from 'framework7/dist/css/framework7.ios.colors.min.css'
+import Framework7Theme from 'framework7/dist/css/framework7.material.min.css'
+import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css'
 /* OR for Material Theme:
  import Framework7Theme from 'framework7/dist/css/framework7.material.min.css'
  import Framework7ThemeColors from 'framework7/dist/css/framework7.material.colors.min.css'
@@ -34,7 +34,7 @@ import App from './main.vue'
 import * as VueGoogleMaps from 'vue2-google-maps'
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyA6-wivMgO-N9BlIRKCJ6_N1KZ4g12_G-k',
+    key: 'AIzaSyCsra1UqgwnJUxlx_YcrXcqjvU0guw7lV4',
     libraries: 'places', // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'
@@ -62,7 +62,7 @@ new Vue({
   framework7: {
     root: '#app',
     /* Uncomment to enable Material theme: */
-    // material: true,
+    material: true,
     routes: Routes
   },
   // Register App Component
